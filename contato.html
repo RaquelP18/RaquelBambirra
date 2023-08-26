@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./form.css">
+
+
+</head>
+
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="Projeto.html">Home</a>
+            <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+            <a class="cabecalho__menu__link" href="skills.html">Minhas habilidades</a>
+            <a class="cabecalho__menu__link" href="contato.html">Contato</a>
+        </nav>
+    </header>
+
+    <main class="apresentacao">
+        <form class="form" action="https://formsubmit.co/raquel.obambirra@sp.senac.br" method="POST">
+
+            <h2>Entre em contato comigo: </h2>
+            <label for="nome">Nome:</label>
+            <input type="text" name="name" id="Nome" placeholder="Preencha seu nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="e-mail" placeholder="Preencha seu e-mail" required>
+
+            <label for="textarea">Sua Mensagem:</label>
+            <textarea name="message" id="textarea" cols="30" rows="10" placeholder="Sua mensagem..."></textarea>
+
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/email-enviado.html">
+
+            <button type="submit">Enviar</button>
+        </form>
+
+
+        <img class="email" src="pngwing.com.png" alt="Foto Raquel"></imgsrc>
+    </main>
+    <footer class="rodape">
+        <p> Desenvolvido por Raquel Bambirra no programa Alura Include.</p>
+        <img src="senac-logo-0.png" class="logo__senac">
+        <img src="Logo_Alura_Include.png" class="logo__alura">
+    </footer>
+</body>
+
+</html>
